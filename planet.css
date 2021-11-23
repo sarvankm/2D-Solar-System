@@ -1,0 +1,256 @@
+.sun {
+  width: 50px;
+  height: 50px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  background-color: yellow;
+  position: absolute;
+  box-shadow: 0 0 15px #c90;
+}
+.mercury {
+  width: 90px;
+  height: 90px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border: 3px solid #3c7eb8;
+  position: absolute;
+  animation: 5s rotation infinite linear;
+}
+.mercuryoval {
+  width: 10px;
+  height: 10px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  background-color: #3c7eb8;
+  position: absolute;
+  margin-left: 63px;
+}
+.venus {
+  width: 120px;
+  height: 120px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border: 3px solid #eacd3a;
+  position: absolute;
+  animation: 8s rotation infinite linear;
+}
+.venusoval {
+  width: 10px;
+  height: 10px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  background-color: #eacd3a;
+  position: absolute;
+  margin-left: 83px;
+}
+.earth {
+  width: 150px;
+  height: 150px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border: 3px solid #14935f;
+  position: absolute;
+  animation: 12s rotation infinite linear;
+}
+.earthoval {
+  width: 10px;
+  height: 10px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  background-color: #14935f;
+  position: absolute;
+  margin-left: 103px;
+}
+.mars {
+  width: 180px;
+  height: 180px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border: 3px solid #e04136;
+  position: absolute;
+  animation: 20s rotation infinite linear;
+}
+.marsoval {
+  width: 10px;
+  height: 10px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  background-color: #e04136;
+  position: absolute;
+  margin-left: 123px;
+}
+.jupiter {
+  width: 210px;
+  height: 210px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border: 3px solid #e69106;
+  position: absolute;
+  animation: 30s rotation infinite linear;
+}
+.jupiteroval {
+  width: 10px;
+  height: 10px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  background-color: #e69106;
+  position: absolute;
+  margin-left: 138px;
+}
+.saturn {
+  width: 240px;
+  height: 240px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border: 3px solid #11aacc;
+  position: absolute;
+  animation: 60s rotation infinite linear;
+}
+.saturnoval {
+  width: 10px;
+  height: 10px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  background-color: #11aacc;
+  position: absolute;
+  margin-left: 157px;
+}
+.uranus {
+  width: 270px;
+  height: 270px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border: 3px solid #bcc045;
+  position: absolute;
+  animation: 70s rotation infinite linear;
+}
+.uranusoval {
+  width: 10px;
+  height: 10px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  background-color: #bcc045;
+  position: absolute;
+  margin-left: 174px;
+}
+.neptune {
+  width: 300px;
+  height: 300px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border: 3px solid #9e67b2;
+  position: absolute;
+  animation: 100s rotation infinite linear;
+  animation-delay: 0s;
+}
+.neptuneoval {
+  width: 10px;
+  height: 10px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  background-color: #9e67b2;
+  position: absolute;
+  margin-left: 193px;
+}
+.pluto {
+  width: 330px;
+  height: 330px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border: 3px solid #73abfd;
+  position: absolute;
+  animation: 120s rotation infinite linear;
+}
+.plutooval {
+  width: 10px;
+  height: 10px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  background-color: #73abfd;
+  position: absolute;
+  margin-left: 208px;
+}
+.solarsystem {
+  width: 380px;
+  height: 380px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./photo-1528819027803-5473f2bf7633.jpeg);
+  padding: 0px;
+}
+li {
+  list-style: none;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.satellites {
+  height: 5px;
+  width: 100px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+
+  border-style: dotted;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  animation: 10s elonmusk infinite linear;
+}
+@keyframes elonmusk {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 280px;
+  }
+  100% {
+    left: 0;
+  }
+}
